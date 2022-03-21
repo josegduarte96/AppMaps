@@ -1,24 +1,23 @@
-# appmaps
+# AppMaps
 
-## Project setup
-```
+[AppMaps](https://appmaps.netlify.app/#/)
+es una aplicacion hecha en Vue.js con **TypeScript** y **Vuex**, la [geolocationAPI](https://w3c.github.io/geolocation-api/#introduction) y la API de [MapBox](https://www.mapbox.com/), solo funciona en Desktop :(
+
+Debes permitir la localizacion en tu navegador.
+
+# Instalacion desde NPM
+instalar Node Modules
+````
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
+````
+Iniciar App de forma local
+````
 npm run serve
-```
+````
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# Uso:
 
-### Lints and fixes files
-```
-npm run lint
-```
+La aplicacion consta de un buscador solo de lugares cercanos a la ubicacion de referencia que tiene el navegador (Maneja la ubicacion exacta depende del navegador).
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Cuando se hace un busqueda muestra un listado de 5 lugares.
+Si hace click en cada lugar el mapa te lleva hasta el mismo, si presionas "Como llegar" te mostrara una ruta sugerida desde tu ubicacion hasta la ubicacion del lugar que marcaste.
