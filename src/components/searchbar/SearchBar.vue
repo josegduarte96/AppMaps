@@ -23,5 +23,6 @@
     overflow: hidden;
     border-radius: 2px;
     padding: 3px;
+    z-index: 9999;
 }
 </style>

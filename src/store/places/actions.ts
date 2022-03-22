@@ -41,8 +41,11 @@ const actions: ActionTree<PlacesState, StateInterface> = {
                 proximity: state.userLocation?.join(',')
             }
         }) 
-        
-        commit('setPlaces', resp.data.features)
+        if (window.screen.width < 480) {
+            commit('setPlaces', resp.data.features.slice(0, 2))
+        } else {
+            commit('setPlaces', resp.data.features)
+        }
          return resp.data.features
     }
 }

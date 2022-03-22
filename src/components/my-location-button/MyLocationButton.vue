@@ -33,4 +33,16 @@ button {
     right: 30px;
     top: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    button {
+       position: fixed;
+       height: 50px;
+       top: 85vh;
+       bottom: 0px;
+       left: 10px;
+       right: 140px;
+       margin-bottom: 0px;
+    }
+}
 </style>

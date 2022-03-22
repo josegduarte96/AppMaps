@@ -3,12 +3,12 @@ import { Feature } from "@/interfaces/places";
 import { defineComponent, ref, watch } from "vue";
 export default defineComponent({
     name: 'SearchResults',
-    setup() {
+    setup(props, ctx) {
         const { isLoadingPlaces, places, userLocation } = usePlaceStore()
         const { map, setMarkersPlaces, obtenerRutas } = useMapStore()
         const activePlace = ref('')
 
-        watch(places, (newPlaces) => {
+        watch(places, (newPlaces) => {            
             activePlace.value = ''
             setMarkersPlaces(newPlaces)
         })

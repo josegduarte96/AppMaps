@@ -11,7 +11,6 @@ export default defineComponent({
         const debounceTimeout = ref()
         const { searchPlaceByTerm } = usePlaceStore()
         
-        
         return {
             searchTerm: computed({
                 get() {

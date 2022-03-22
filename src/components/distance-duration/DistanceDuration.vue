@@ -40,5 +40,18 @@ strong{
     color: #3fb1ce;
 }
 
+@media screen and (max-width: 480px) {
+    .trip-container {
+        position: fixed;
+        bottom: 120px;
+        padding: 10px;
+        left: 15px;
+        width: 200px;
+        font-size: 15px;
+        background-color: white;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+        z-index: 9999;
+    }
+}
 
 </style>
