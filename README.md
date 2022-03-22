@@ -1,7 +1,7 @@
 # AppMaps
 
 [AppMaps](https://appmaps.netlify.app/#/)
-es una aplicacion hecha en Vue.js con **TypeScript** y **Vuex**, la [geolocationAPI](https://w3c.github.io/geolocation-api/#introduction) y la API de [MapBox](https://www.mapbox.com/), solo funciona en Desktop :(
+es una aplicacion hecha en Vue.js con **TypeScript** y **Vuex**, con la API de [geolocationAPI](https://w3c.github.io/geolocation-api/#introduction) y la API de [MapBox](https://www.mapbox.com/)
 
 Debes permitir la localizacion en tu navegador.
 
